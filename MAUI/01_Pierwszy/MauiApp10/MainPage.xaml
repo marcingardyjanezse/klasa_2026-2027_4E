@@ -3,12 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp10.MainPage">
     <VerticalStackLayout>
+        <Label Text="Imie:"/>
+        <Label Text="Nazwisko:"/>
 
-        <Label Text="Franciszek"/>
-        <Label Text="Roksana"/>
-        <Label Text="Jakub"/>
-        <Label Text="Mikołaj"/>
-        
+        <HorizontalStackLayout>
+            <Button Text="Wyślij"/>
+            <Button Text="Edytuj" Background="#FF7000"/>
+            <Button Text="Usuń" Background="#FF0000"/>
+        </HorizontalStackLayout>
+
     </VerticalStackLayout>
 
 </ContentPage>
